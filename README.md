@@ -2,3 +2,4 @@
 ## Experiments
 ### ImageNet Classification
 ![](./resource/imagenet.png)
+![](./resource/architecture.png)
