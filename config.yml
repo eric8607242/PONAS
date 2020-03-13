@@ -1,0 +1,16 @@
+
+cuda: True
+ngpu: 4
+num_workers: 0
+
+log_dir: "./logs/"
+
+pretrain: "./pretrain/PONAS_B.pth"
+
+batch_size: 1024
+
+datasets: "imagenet"
+dataset_dir: "./"
+input_size: 224
+mean: [0.485, 0.456, 0.406]
+std: [0.229, 0.224, 0.225]
