@@ -2,6 +2,7 @@ import time
 import torch
 
 def calculate_latency(model, input_depth, input_size):
+    model.eval()
     input_sample = torch.randn((1, input_depth, input_size, input_size))
     end = time.time()
     model(input_sample)

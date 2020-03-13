@@ -1,11 +1,8 @@
-
 cuda: True
 ngpu: 4
 num_workers: 0
 
 log_dir: "./logs/"
-
-pretrain: "./pretrain/PONAS_B.pth"
 
 batch_size: 1024
 
